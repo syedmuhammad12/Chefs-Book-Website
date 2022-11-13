@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* ========== Google Fonts =========== */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+
+:root {
+	--primary-color: #ff5e3a;
+	--default-color: #4f5665;
+	--black-color: #000;
+	--grey-color: #f0f0f0;
+	--white-color: #fff;
+	--lightpink: #ffcce0;
+	--blue: #1a1aff;
+	--custom: #1a1aff;
+	--color: #4d4d4d;
+	--lightblue: #ccccff;
+	--box-shadow-1: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--box-shadow-2: 0 5px 15px rgba(255, 94, 58, 0.2);
+	--gradient: linear-gradient(to bottom, #fccb90, #ff9a9e);
+	--btn-gradient: linear-gradient(to bottom, #ff5151 50%, #ff5e3a);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.main{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+nav ul li a:hover {
+	color: var(--primary-color);
+}
+
+.button{
+	color: rgb(10, 5, 5);
+	align-items: center;
+	align-content: center;
+    border-radius: 15px;
+	text-decoration: none;
+	border: 2px solid rgb(39, 24, 24);
+	transition: color 0.3s;
+	overflow: hidden;
+	transition: 0.2s;
+	width: 100px;
+	height: 50px;
+    margin-left: 500px;
+    width: 220px;
+}
+
+.button:hover{
+	color: #000000;
+	border-color: #0a3241;
+	background: #9ae2ff;
+	box-shadow: 0 0 10px #49cbf6, 0 0 30px #49cbf6, 0 0 60px #49cbf6;
+}
+
+.button a{
+    color: black;
+}
+
+.policies .box-container{
+    display: center;
+}
+
+.policies .box-container .box{
+    background: rgb(255,255,255);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .5rem 1rem rgba(46, 46, 46, 0.1);
+    margin:1.5rem;
+    padding:3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+
+.policies .box-container .box img{
+    height: 22rem;
+}
+
+.policies .box-container .box h3{
+    font-size: 4rem;
+    color:rgb(23, 23, 23);
+    padding-top: 1rem;
+}
+
+.policies .box-container .box p{
+    font-size: 1.5rem;
+    color:#666;
+    padding: 1rem 0;
+}
+
+.policies .box-container .box h5{
+    font-size: 2rem;
+    color:rgb(47, 47, 47);
+    padding-top: 1rem;
+}
